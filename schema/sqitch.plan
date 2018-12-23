@@ -1,4 +1,4 @@
-%syntax-version=1.2.5
+%syntax-version=1.0.0
 %project=schemaverse
 
 role-players 2013-12-02T11:07:51Z Joshua McDougall <jmcdougall@bitcoinsultants.com> # Creates the players role, granted to all player accounts
@@ -90,3 +90,4 @@ function-round_control 2013-12-01T18:35:25Z Joshua McDougall <jmcdougall@bitcoin
 indexes 2013-12-01T18:37:52Z Joshua McDougall <jmcdougall@bitcoinsultants.com> # Lazily applies all the indexes
 permissions 2013-12-01T18:38:22Z Joshua McDougall <jmcdougall@bitcoinsultants.com> # Lazily applies all the schema permissions
 function-get_player_symbol 2016-12-09T16:11:08Z Matt Robinson <brimstone@the.narro.ws> # Returns the symbol associated with a player
+function-get_player_rgb 2018-12-23T08:14:11Z scrandell,,, <scrandell@nektulos> # adding get_player_rgb(conqueror_id) as it appears that the visualizer wants it
